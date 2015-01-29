@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-01-21 21:18:55
+<?php /* Smarty version Smarty-3.1.19, created on 2015-01-29 12:49:01
          compiled from "/Applications/MAMP/htdocs/shop/themes/default-bootstrap/modules/blocklanguages/blocklanguages.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:76398727554c009af256cb9-49550953%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:10302572954ca101d96f227-85002958%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ac852f67a89c0f6e70e837bd0fdadbafc6e38e4e' => 
     array (
       0 => '/Applications/MAMP/htdocs/shop/themes/default-bootstrap/modules/blocklanguages/blocklanguages.tpl',
-      1 => 1420617956,
+      1 => 1422391564,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '76398727554c009af256cb9-49550953',
+  'nocache_hash' => '10302572954ca101d96f227-85002958',
   'function' => 
   array (
   ),
@@ -20,15 +20,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'languages' => 0,
     'language' => 0,
     'lang_iso' => 0,
+    'img_lang_dir' => 0,
     'indice_lang' => 0,
     'lang_rewrite_urls' => 0,
     'link' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_54c009af488f68_88733550',
+  'unifunc' => 'content_54ca101da8d302_70484740',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54c009af488f68_88733550')) {function content_54c009af488f68_88733550($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include '/Applications/MAMP/htdocs/shop/tools/smarty/plugins/modifier.regex_replace.php';
+<?php if ($_valid && !is_callable('content_54ca101da8d302_70484740')) {function content_54ca101da8d302_70484740($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include '/Applications/MAMP/htdocs/shop/tools/smarty/plugins/modifier.regex_replace.php';
 ?>
 <!-- Block languages module -->
 <?php if (count($_smarty_tpl->tpl_vars['languages']->value)>1) {?>
@@ -42,7 +43,10 @@ $_smarty_tpl->tpl_vars['language']->_loop = true;
 ?>
 			<?php if ($_smarty_tpl->tpl_vars['language']->value['iso_code']==$_smarty_tpl->tpl_vars['lang_iso']->value) {?>
 				<div class="current">
-					<span><?php echo smarty_modifier_regex_replace($_smarty_tpl->tpl_vars['language']->value['name'],"/\s\(.*\)"."$"."/",'');?>
+					<span><img alt="<?php echo $_smarty_tpl->tpl_vars['language']->value['iso_code'];?>
+" height="11" span="" src="<?php echo $_smarty_tpl->tpl_vars['img_lang_dir']->value;?>
+<?php echo $_smarty_tpl->tpl_vars['language']->value['id_lang'];?>
+.jpg" width="16" />&nbsp;<?php echo smarty_modifier_regex_replace($_smarty_tpl->tpl_vars['language']->value['name'],"/\s\(.*\)"."$"."/",'');?>
 </span>
 				</div>
 			<?php }?>
@@ -68,7 +72,10 @@ $_smarty_tpl->tpl_vars['language']->_loop = true;
 ">
 					<?php }?>
 				<?php }?>
-						<span><?php echo smarty_modifier_regex_replace($_smarty_tpl->tpl_vars['language']->value['name'],"/\s\(.*\)"."$"."/",'');?>
+						<span><img alt="<?php echo $_smarty_tpl->tpl_vars['language']->value['iso_code'];?>
+" height="11" span="" src="<?php echo $_smarty_tpl->tpl_vars['img_lang_dir']->value;?>
+<?php echo $_smarty_tpl->tpl_vars['language']->value['id_lang'];?>
+.jpg" width="16" />&nbsp;<?php echo smarty_modifier_regex_replace($_smarty_tpl->tpl_vars['language']->value['name'],"/\s\(.*\)"."$"."/",'');?>
 </span>
 				<?php if ($_smarty_tpl->tpl_vars['language']->value['iso_code']!=$_smarty_tpl->tpl_vars['lang_iso']->value) {?>
 					</a>

@@ -1,0 +1,13 @@
+
+[{shop_url}] 
+
+Hei, 
+
+{firstname} {lastname} indicated you may want to see his/her
+wishlist: {wishlist}
+
+{wishlist} [{message}] 		 
+
+{shop_name} [{shop_url}] moottorina
+PrestaShop(tm) [http://www.prestashop.com/] 
+

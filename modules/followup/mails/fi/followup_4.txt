@@ -1,0 +1,22 @@
+
+[{shop_url}] 
+
+Hei {firstname} {lastname}, 
+
+Olet yksi parhaista asiakkastamme, mutta et ole tehnyt yhtään
+tilausta viimeiseen {days_threshold} päivään.
+
+Your cart has been saved, you can resume your order by visiting our
+shop: {shop_url} [{shop_url}]
+
+We wish to thank you for the trust you have placed in us and want to
+give you a discount of {amount}% valid on your next order! This offer
+is valid for {days} days, so do not waste a moment! 		 
+
+TÄSSÄ ON ALENNUSKUPONKISI: {voucher_num}
+
+Saadaksesi alennuksen anna tämä koodi ostoskorissa. 		 
+
+{shop_name} [{shop_url}] moottorina
+PrestaShop(tm) [http://www.prestashop.com/] 
+

@@ -1,0 +1,15 @@
+
+[{shop_url}] 
+
+Hei, 
+
+Tämä tuote on jälleen saatavilla.
+
+You can access the product page by clicking on the link: {product}
+[{product_link}]
+
+You can order it right now from our online shop. 		 
+
+{shop_name} [{shop_url}] moottorina
+PrestaShop(tm) [http://www.prestashop.com/] 
+

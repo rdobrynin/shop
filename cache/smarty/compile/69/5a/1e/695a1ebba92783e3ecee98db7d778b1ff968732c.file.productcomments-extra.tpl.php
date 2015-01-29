@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-01-21 21:19:07
-         compiled from "/Applications/MAMP/htdocs/shop/themes/default-bootstrap/modules/productcomments/productcomments-extra.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:86031361554c009bb3ec6e1-96298301%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.19, created on 2015-01-29 10:54:50
+         compiled from "/Applications/MAMP/htdocs/shop/themes/default-bootstrap/modules/productcomments//productcomments-extra.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:17349085054c9f55a1c61f3-25500767%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '695a1ebba92783e3ecee98db7d778b1ff968732c' => 
     array (
-      0 => '/Applications/MAMP/htdocs/shop/themes/default-bootstrap/modules/productcomments/productcomments-extra.tpl',
+      0 => '/Applications/MAMP/htdocs/shop/themes/default-bootstrap/modules/productcomments//productcomments-extra.tpl',
       1 => 1420617956,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '86031361554c009bb3ec6e1-96298301',
+  'nocache_hash' => '17349085054c9f55a1c61f3-25500767',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_54c009bb6c7df7_43926886',
+  'unifunc' => 'content_54c9f55a344c85_71661506',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54c009bb6c7df7_43926886')) {function content_54c009bb6c7df7_43926886($_smarty_tpl) {?> 
+<?php if ($_valid && !is_callable('content_54c9f55a344c85_71661506')) {function content_54c9f55a344c85_71661506($_smarty_tpl) {?> 
 <?php if ((!$_smarty_tpl->tpl_vars['content_only']->value&&(($_smarty_tpl->tpl_vars['nbComments']->value==0&&$_smarty_tpl->tpl_vars['too_early']->value==false&&($_smarty_tpl->tpl_vars['is_logged']->value||$_smarty_tpl->tpl_vars['allow_guests']->value))||($_smarty_tpl->tpl_vars['nbComments']->value!=0)))) {?>
 <div id="product_comments_block_extra" class="no-print" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
 	<?php if ($_smarty_tpl->tpl_vars['nbComments']->value!=0) {?>

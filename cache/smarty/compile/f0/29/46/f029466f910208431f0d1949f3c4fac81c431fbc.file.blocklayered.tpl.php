@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-01-21 21:18:55
+<?php /* Smarty version Smarty-3.1.19, created on 2015-01-28 16:45:21
          compiled from "/Applications/MAMP/htdocs/shop/themes/default-bootstrap/modules/blocklayered/blocklayered.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:83236851854c009af4a8a17-43126107%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:203718550154c8f60110e934-39342373%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '83236851854c009af4a8a17-43126107',
+  'nocache_hash' => '203718550154c8f60110e934-39342373',
   'function' => 
   array (
   ),
@@ -38,9 +38,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_54c009b109ceb6_42677367',
+  'unifunc' => 'content_54c8f6019dc0b1_75889267',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54c009b109ceb6_42677367')) {function content_54c009b109ceb6_42677367($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_54c8f6019dc0b1_75889267')) {function content_54c8f6019dc0b1_75889267($_smarty_tpl) {?>
 
 <!-- Block layered navigation module -->
 <?php if ($_smarty_tpl->tpl_vars['nbr_filterBlocks']->value!=0) {?>
@@ -89,8 +89,8 @@ _slider" title="<?php echo smartyTranslate(array('s'=>'Cancel','mod'=>'blocklaye
 "></a>
 													<?php if ($_smarty_tpl->tpl_vars['filter']->value['format']==1) {?>
 														<?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['displayPrice'][0][0]->displayPriceSmarty(array('price'=>$_smarty_tpl->tpl_vars['filter']->value['values'][0]),$_smarty_tpl);?>
-<?php $_tmp9=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['displayPrice'][0][0]->displayPriceSmarty(array('price'=>$_smarty_tpl->tpl_vars['filter']->value['values'][1]),$_smarty_tpl);?>
-<?php $_tmp10=ob_get_clean();?><?php echo smartyTranslate(array('s'=>htmlspecialchars(sprintf('%1$s: %2$s - %3$s',$_smarty_tpl->tpl_vars['filter']->value['name'],$_tmp9,$_tmp10), ENT_QUOTES, 'UTF-8', true),'mod'=>'blocklayered'),$_smarty_tpl);?>
+<?php $_tmp3=ob_get_clean();?><?php ob_start();?><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['displayPrice'][0][0]->displayPriceSmarty(array('price'=>$_smarty_tpl->tpl_vars['filter']->value['values'][1]),$_smarty_tpl);?>
+<?php $_tmp4=ob_get_clean();?><?php echo smartyTranslate(array('s'=>htmlspecialchars(sprintf('%1$s: %2$s - %3$s',$_smarty_tpl->tpl_vars['filter']->value['name'],$_tmp3,$_tmp4), ENT_QUOTES, 'UTF-8', true),'mod'=>'blocklayered'),$_smarty_tpl);?>
 
 													<?php } else { ?>
 														<?php echo smartyTranslate(array('s'=>htmlspecialchars(sprintf('%1$s: %2$s %4$s - %3$s %4$s',$_smarty_tpl->tpl_vars['filter']->value['name'],$_smarty_tpl->tpl_vars['filter']->value['values'][0],$_smarty_tpl->tpl_vars['filter']->value['values'][1],$_smarty_tpl->tpl_vars['filter']->value['unit']), ENT_QUOTES, 'UTF-8', true),'mod'=>'blocklayered'),$_smarty_tpl);?>

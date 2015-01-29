@@ -1,0 +1,17 @@
+
+[{shop_url}] 
+
+Hei {firstname} {lastname}, 
+
+Olemme tehneet sinulle henkilökohtaisen alennuskupongin kiitoksena
+kauppamme suosittelemisesta ystävällesi.
+
+Tässä on alennuskuponkisi koodi: {voucher_num}, arvoltaan
+{voucher_amount}.
+
+Simply copy/paste this code during the payment process for your next
+order. 		 
+
+{shop_name} [{shop_url}] moottorina
+PrestaShop(tm) [http://www.prestashop.com/] 
+

@@ -17,11 +17,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '111046372554c00a7146b242-73909295',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_54c00a890e8172_13722645',
+  'unifunc' => 'content_54c8d6005ba8a2_16866219',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54c00a890e8172_13722645')) {function content_54c00a890e8172_13722645($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_54c8d6005ba8a2_16866219')) {function content_54c8d6005ba8a2_16866219($_smarty_tpl) {?>
 <!-- Block categories module -->
 <section class="blockcategories_footer footer-block col-xs-12 col-sm-2">
 	<h4>Categories</h4>
@@ -31,10 +31,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 												
 <li class="last">
 	<a 
-	href="http://localhost:8888/shop/en/3-women" title="You will find here all woman fashion collections.  
+	href="http://localhost:8888/shop/en/3-home" title="You will find here all woman fashion collections.  
  This category includes all the basics of your wardrobe and much more: 
  shoes, accessories, printed t-shirts, feminine dresses, women&#039;s jeans!">
-		Women
+		Home
 	</a>
 			<ul>
 												

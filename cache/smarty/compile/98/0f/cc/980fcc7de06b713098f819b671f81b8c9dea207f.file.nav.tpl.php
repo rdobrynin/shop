@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-01-21 21:18:54
+<?php /* Smarty version Smarty-3.1.19, created on 2015-01-27 22:56:19
          compiled from "/Applications/MAMP/htdocs/shop/themes/default-bootstrap/modules/blockcontact/nav.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:96666650954c009aed7d739-37840788%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:193321226154c7fb73ba19c6-13168841%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '96666650954c009aed7d739-37840788',
+  'nocache_hash' => '193321226154c7fb73ba19c6-13168841',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_54c009aee03fa0_43108523',
+  'unifunc' => 'content_54c7fb73be7070_56854809',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54c009aee03fa0_43108523')) {function content_54c009aee03fa0_43108523($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_54c7fb73be7070_56854809')) {function content_54c7fb73be7070_56854809($_smarty_tpl) {?>
 <div id="contact-link">
 	<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('contact',true), ENT_QUOTES, 'UTF-8', true);?>
 " title="<?php echo smartyTranslate(array('s'=>'Contact us','mod'=>'blockcontact'),$_smarty_tpl);?>

@@ -1,0 +1,13 @@
+
+[{shop_url}] 
+
+Hei {firstname} {lastname}, 
+
+You have received a new message from {shop_name} regarding order with
+the reference {order_name}.
+
+VIESTI: {message} 		 
+
+{shop_name} [{shop_url}] moottorina
+PrestaShop(tm) [http://www.prestashop.com/] 
+

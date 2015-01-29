@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-01-21 21:18:52
+<?php /* Smarty version Smarty-3.1.19, created on 2015-01-29 12:49:00
          compiled from "/Applications/MAMP/htdocs/shop/themes/default-bootstrap/modules/blockcart/blockcart.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:35170553354c009acb56340-20467626%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:165056983454ca101c98f3e8-06722820%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '35170553354c009acb56340-20467626',
+  'nocache_hash' => '165056983454ca101c98f3e8-06722820',
   'function' => 
   array (
   ),
@@ -52,9 +52,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_54c009ae1d49a9_20947751',
+  'unifunc' => 'content_54ca101d193ed1_39263634',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54c009ae1d49a9_20947751')) {function content_54c009ae1d49a9_20947751($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/Applications/MAMP/htdocs/shop/tools/smarty/plugins/modifier.replace.php';
+<?php if ($_valid && !is_callable('content_54ca101d193ed1_39263634')) {function content_54ca101d193ed1_39263634($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include '/Applications/MAMP/htdocs/shop/tools/smarty/plugins/modifier.replace.php';
 if (!is_callable('smarty_function_counter')) include '/Applications/MAMP/htdocs/shop/tools/smarty/plugins/function.counter.php';
 ?>
 <!-- MODULE Block cart -->
@@ -191,8 +191,8 @@ _<?php echo intval($_smarty_tpl->tpl_vars['product']->value['id_product_attribut
 _<?php echo intval($_smarty_tpl->tpl_vars['product']->value['id_address_delivery']);?>
 " class="deleteCustomizableProduct">
 														<a class="ajax_cart_block_remove_link" href="<?php ob_start();?><?php echo intval($_smarty_tpl->tpl_vars['product']->value['id_product']);?>
-<?php $_tmp7=ob_get_clean();?><?php ob_start();?><?php echo intval($_smarty_tpl->tpl_vars['product']->value['id_product_attribute']);?>
-<?php $_tmp8=ob_get_clean();?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink("cart",true,null,"delete=1&amp;id_product=".$_tmp7."&amp;ipa=".$_tmp8."&amp;id_customization=".((string)$_smarty_tpl->tpl_vars['id_customization']->value)."&amp;token=".((string)$_smarty_tpl->tpl_vars['static_token']->value),true), ENT_QUOTES, 'UTF-8', true);?>
+<?php $_tmp1=ob_get_clean();?><?php ob_start();?><?php echo intval($_smarty_tpl->tpl_vars['product']->value['id_product_attribute']);?>
+<?php $_tmp2=ob_get_clean();?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink("cart",true,null,"delete=1&amp;id_product=".$_tmp1."&amp;ipa=".$_tmp2."&amp;id_customization=".((string)$_smarty_tpl->tpl_vars['id_customization']->value)."&amp;token=".((string)$_smarty_tpl->tpl_vars['static_token']->value),true), ENT_QUOTES, 'UTF-8', true);?>
 " rel="nofollow">&nbsp;</a>
 													</div>
 													<?php if (isset($_smarty_tpl->tpl_vars['customization']->value['datas'][$_smarty_tpl->tpl_vars['CUSTOMIZE_TEXTFIELD']->value][0])) {?>

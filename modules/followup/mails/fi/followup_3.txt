@@ -1,0 +1,18 @@
+
+[{shop_url}] 
+
+Hei {firstname} {lastname},
+
+Kiitos luottamuksestasi. 
+
+As appreciation for your loyalty, we want to give you a discount of
+{amount}% valid on your next order! This offer is valid for {days}
+days, so do not waste a moment!
+
+TÄSSÄ ON ALENNUSKUPONKISI: {voucher_num}
+
+Saadaksesi alennuksen anna tämä koodi ostoskorissa. 		 
+
+{shop_name} [{shop_url}] moottorina
+PrestaShop(tm) [http://www.prestashop.com/] 
+

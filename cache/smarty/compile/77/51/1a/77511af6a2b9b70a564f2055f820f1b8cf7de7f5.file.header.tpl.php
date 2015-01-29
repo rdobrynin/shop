@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-01-21 21:18:50
+<?php /* Smarty version Smarty-3.1.19, created on 2015-01-29 12:49:01
          compiled from "/Applications/MAMP/htdocs/shop/themes/default-bootstrap/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:67707754954c009aaafebe7-68015719%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:198863073954ca101d5f6425-36812400%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '77511af6a2b9b70a564f2055f820f1b8cf7de7f5' => 
     array (
       0 => '/Applications/MAMP/htdocs/shop/themes/default-bootstrap/header.tpl',
-      1 => 1420617956,
+      1 => 1422527788,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '67707754954c009aaafebe7-68015719',
+  'nocache_hash' => '198863073954ca101d5f6425-36812400',
   'function' => 
   array (
   ),
@@ -56,9 +56,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_54c009aadee543_32808860',
+  'unifunc' => 'content_54ca101d8b1c82_26072387',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54c009aadee543_32808860')) {function content_54c009aadee543_32808860($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include '/Applications/MAMP/htdocs/shop/tools/smarty/plugins/function.implode.php';
+<?php if ($_valid && !is_callable('content_54ca101d8b1c82_26072387')) {function content_54ca101d8b1c82_26072387($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include '/Applications/MAMP/htdocs/shop/tools/smarty/plugins/function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>
@@ -106,6 +106,10 @@ $_smarty_tpl->tpl_vars['media']->_loop = true;
 " />
 	<?php } ?>
 <?php }?>
+
+		<?php echo var_dump($_smarty_tpl->tpl_vars['meta_description']->value);?>
+
+
 <?php if (isset($_smarty_tpl->tpl_vars['js_defer']->value)&&!$_smarty_tpl->tpl_vars['js_defer']->value&&isset($_smarty_tpl->tpl_vars['js_files']->value)&&isset($_smarty_tpl->tpl_vars['js_def']->value)) {?>
 	<?php echo $_smarty_tpl->tpl_vars['js_def']->value;?>
 
@@ -120,7 +124,7 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 <?php }?>
 		<?php echo $_smarty_tpl->tpl_vars['HOOK_HEADER']->value;?>
 
-		<link rel="stylesheet" href="http<?php if (Tools::usingSecureMode()) {?>s<?php }?>://fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
+		<link rel="stylesheet" href="http<?php if (Tools::usingSecureMode()) {?>s<?php }?>://fonts.googleapis.com/css?family=Open+Sans:300,400,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 		<!--[if IE 8]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
@@ -166,11 +170,10 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 <?php } else { ?><?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php }?>" title="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['shop_name']->value, ENT_QUOTES, 'UTF-8', true);?>
 ">
+										
 										<img class="logo img-responsive" src="<?php echo $_smarty_tpl->tpl_vars['logo_url']->value;?>
 " alt="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['shop_name']->value, ENT_QUOTES, 'UTF-8', true);?>
-"<?php if (isset($_smarty_tpl->tpl_vars['logo_image_width']->value)&&$_smarty_tpl->tpl_vars['logo_image_width']->value) {?> width="<?php echo $_smarty_tpl->tpl_vars['logo_image_width']->value;?>
-"<?php }?><?php if (isset($_smarty_tpl->tpl_vars['logo_image_height']->value)&&$_smarty_tpl->tpl_vars['logo_image_height']->value) {?> height="<?php echo $_smarty_tpl->tpl_vars['logo_image_height']->value;?>
-"<?php }?>/>
+"<?php if (isset($_smarty_tpl->tpl_vars['logo_image_width']->value)&&$_smarty_tpl->tpl_vars['logo_image_width']->value) {?> width="103"<?php }?><?php if (isset($_smarty_tpl->tpl_vars['logo_image_height']->value)&&$_smarty_tpl->tpl_vars['logo_image_height']->value) {?> height="62"<?php }?>/>
 									</a>
 								</div>
 								<?php if (isset($_smarty_tpl->tpl_vars['HOOK_TOP']->value)) {?><?php echo $_smarty_tpl->tpl_vars['HOOK_TOP']->value;?>

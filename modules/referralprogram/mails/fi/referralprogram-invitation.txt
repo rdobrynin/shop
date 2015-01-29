@@ -1,0 +1,21 @@
+
+[{shop_url}] 
+
+{firstname_friend} {lastname_friend}, liity mukaan! 
+
+Ystäväsi {firstname} {lastname} haluaa suositella sinulle yritystä
+{shop_name} [{shop_url}]!
+
+Olemme iloisia saadassamme antaa sinulle alennuskupongin, joka on
+arvoltaan {discount}. Voit käyttää sitä seuraavan tilauksessasi.
+Suosittelekauppaamme ja hanki itsellesi alennuskuponki {discount}!
+It's very easy to sign up. Just click here! [{link}]
+
+When signing up, don't forget to provide the e-mail address of your
+referring friend: {email}.
+
+Ystävällisin terveisin, 
+
+{shop_name} [{shop_url}] moottorina
+PrestaShop(tm) [http://www.prestashop.com/] 
+
