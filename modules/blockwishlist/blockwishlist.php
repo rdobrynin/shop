@@ -65,6 +65,9 @@ class BlockWishList extends Module
 			$sql = preg_split("/;\s*[\r\n]+/", $sql);
 			foreach ($sql as $query)
 				if ($query)
+
+
+
 					if (!Db::getInstance()->execute(trim($query)))
 						return false;
 		}

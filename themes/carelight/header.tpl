@@ -48,9 +48,7 @@
 		<link rel="stylesheet" href="{$css_uri|escape:'html':'UTF-8'}" type="text/css" media="{$media|escape:'html':'UTF-8'}" />
 	{/foreach}
 {/if}
-
-		{$meta_description|@var_dump}
-
+		{*{$meta_description|@var_dump}*}
 {if isset($js_defer) && !$js_defer && isset($js_files) && isset($js_def)}
 	{$js_def}
 	{foreach from=$js_files item=js_uri}

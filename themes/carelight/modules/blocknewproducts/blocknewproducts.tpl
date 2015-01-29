@@ -28,6 +28,7 @@
     	<a href="{$link->getPageLink('new-products')|escape:'html'}" title="{l s='New products' mod='blocknewproducts'}">{l s='New products' mod='blocknewproducts'}</a>
     </h4>
     <div class="block_content products-block">
+
         {if $new_products !== false}
             <ul class="products">
                 {foreach from=$new_products item=newproduct name=myLoop}
